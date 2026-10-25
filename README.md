@@ -537,14 +537,6 @@ A failed singular test means the query returned rows that violate the test's con
 
 Ensure that the test conditions represent the intended business rules.
 
-## Security
-
-- Never commit `.env` files, passwords, access tokens, or private keys.
-- Do not publish `airflow_settings.yaml` if it contains credentials or sensitive configuration.
-- Use your own Snowflake credentials when running the project.
-- Keep local configuration separate from the public repository.
-- Use least-privilege permissions for production environments.
-
 ## Project Status
 
 This is an educational Data Engineering portfolio project.

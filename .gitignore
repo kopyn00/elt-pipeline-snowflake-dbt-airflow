@@ -1,0 +1,27 @@
+# Environment and secrets
+.env
+airflow_settings.yaml
+
+# Astro local files
+.astro/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Airflow local files
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
+
+# dbt generated files
+/dags/dbt/data_pipeline/dbt_packages/
+/dags/dbt/data_pipeline/dbt_internal_packages/
+/dags/dbt/data_pipeline/logs/
+/dags/dbt/data_pipeline/target/
+
+# OS files
+.DS_Store
